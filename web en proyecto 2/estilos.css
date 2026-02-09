@@ -1,0 +1,104 @@
+body {
+  background-color: beige;
+  font-family: Garamond, serif;
+}
+
+contenedor {
+  width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+
+  .contenedor {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+}
+
+
+
+h1 {
+  color: green;
+  margin: 10px 20px;
+  text-align: center;
+}
+h2 {
+  color:rgb(8, 0, 255)
+}
+
+p {
+  color: green
+}
+
+h3 {
+  color: green
+  
+}
+
+h4 {
+  text-align: left;
+  color: green;
+  margin-top: 0%;
+  font-size: 20px;
+  }
+
+
+.seccion {
+  display: flex;
+}
+
+.formulario {
+  width: 40%;border: 5px solid red;
+  background-color: aquamarine;
+}
+
+
+
+.imagen {
+  width: 60%;
+}
+
+/* 📱 Móvil */
+@media (max-width: 768px) {
+
+  .seccion {
+    flex-direction: column;
+  }
+
+  .formulario, .imagen {
+    width: 100%;
+  }
+
+}
+
+.aviso-ia {
+  background: #ffe6e6;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.contenedor-enlaces {
+    display: inline-block;        /* El marco se ajusta al contenido */
+    background-color: #f0f0f0;    /* Color de fondo para todo el grupo */
+    border: 2px solid #333;       /* Marco único que rodea a todos */
+    padding: 10px;                /* Espacio entre el borde y los enlaces */
+    border-radius: 8px;           /* Esquinas redondeadas */
+}
+
+
+
+
+
+
+
+
+
